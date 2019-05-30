@@ -108,13 +108,13 @@ function draw() {
         context.font = 'bold 60px courier';
         context.textBaseline = 'top';
         context.fillStyle = '#000';
-        context.fillText("canvasPong", game.width / 2, game.height / 2 - 50);
+        context.fillText("Ping - Pong", game.width / 2, game.height / 2 - 50);
         context.font = 'bold 16px courier';
         context.textBaseline = 'top';
         context.fillStyle = '#000';
         context.fillText("click on me", game.width / 2, game.height / 2 + 25);
         context.textBaseline = 'bottom';
-        context.fillText("A.Shpak @ 2011", game.width / 2, game.height);
+        context.fillText("SuperCatMaster 2019", game.width / 2, game.height);
     }
 }
 
