@@ -181,7 +181,7 @@ function play() {
 function init() {
     start = false;
 
-    game = new rect("#000", 0, 0, 480, 320);
+    game = new rect("#000", 0, 0, screen.width - 300, screen.height - 200);
     game.total = 0;
     game.win = 0;
 
